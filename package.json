@@ -12,6 +12,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "cypress:open": "cypress open",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint src",
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^8.4.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-cypress": "^2.12.1",
