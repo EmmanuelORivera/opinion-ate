@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest/globals": true,
+        "cypress/globals": true
+    },
+    "extends": [
+        "react-app",
+        "prettier"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+        "react",
+        "jest",
+        "cypress"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+    }
+}
