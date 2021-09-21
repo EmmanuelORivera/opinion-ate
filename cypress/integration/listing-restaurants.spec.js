@@ -3,7 +3,7 @@ describe("Listing Restaurants", () => {
     const sushiPlace = "Sushi Place";
     const pizzaPlace = "Pizza Place";
 
-    cy.server({ sorce404: true });
+    cy.server({ source404: true });
 
     cy.route({
       method: "GET",
